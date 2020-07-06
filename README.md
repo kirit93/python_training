@@ -14,6 +14,13 @@ We'll be covering Pandas, specifically -
 
 ## Prerequisites
 
+* Create Authentication Tokens for GitHub
+    * GitHub authentication can happen via SSH keys or PATs (Personal Access Token)
+        * [PAT](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+        * [SSH](https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+* Clone the repo
+    * `git clone https://github.com/kirit93/python_training.git`
+    * *Note* if you've setup your GitHub account with 2FA, you will need to use your PAT to authenticate. If not, your username and password will suffice.
 * Python3 Installation
 * Python3 virtualenv / anaconda environment setup
     * [venv](https://docs.python.org/3/library/venv.html)
@@ -32,10 +39,6 @@ We'll be covering Pandas, specifically -
             * `conda activate <NAME OF VIRTUAL ENV>`
     * Run this command to install all the required packages
         * `pip install -r requirements.txt`
-* Authentication Tokens
-    * GitHub authentication can happen via SSH keys or PATs (Personal Access Token)
-        * [PAT](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
-        * [SSH](https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 *Note* 
 * If you're new to Git, use PAT for authentication as the user experience is easier to understand. 
