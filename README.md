@@ -3,9 +3,14 @@
 This repo holds the Python notebooks and other files needed for this training. 
 We'll be covering Pandas, specifically -
 * Loading and saving data to and from DataFrames
-* DataFrame transformations
-* Grouping and aggregation
-* Visualization
+* Dataframe manipulations
+* Data descriptions and aggregations
+* Grouped aggregations
+* Sorting and filtering
+* Table joins
+* Advanced statistical methods
+* Transforming dataframes
+* Visualizing data
 
 ## Prerequisites
 
