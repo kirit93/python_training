@@ -41,5 +41,4 @@ We'll be covering Pandas, specifically -
         * `pip install -r requirements.txt`
 
 *Note* 
-* If you're new to Git, use PAT for authentication as the user experience is easier to understand. 
 * virtualenv works great for Python environments (on Mac, Linux), if you are on a PC, anaconda would be best. 
